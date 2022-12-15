@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ELCOT"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-11-16 11:22:46 PM"/>
+        <attribute name="created" value="RUxDT1Q7TEVOT1ZPOzIwMjAtMTEtMTY7MDk6MTM6MjggUE07MjEyMg=="/>
+        <attribute name="edited" value="RUxDT1Q7TEVOT1ZPOzIwMjAtMTEtMTY7MTE6MjI6NDYgUE07MTsyMjIz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <assign variable="i" expression="1"/>
+            <while expression="i&lt;20">
+                <output expression="&quot; &quot; &amp;i" newline="False"/>
+                <assign variable="i" expression="i+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

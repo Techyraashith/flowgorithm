@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ELCOT"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-11-10 09:22:40 PM"/>
+        <attribute name="created" value="RUxDT1Q7TEVOT1ZPOzIwMjAtMTEtMTA7MDk6MDY6MjYgUE07MjExNg=="/>
+        <attribute name="edited" value="RUxDT1Q7TEVOT1ZPOzIwMjAtMTEtMTA7MDk6MjI6NDAgUE07MTsyMjE4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="raashith" type="Integer" array="False" size=""/>
+            <declare name="pravin" type="Integer" array="False" size=""/>
+            <declare name="arun" type="Integer" array="False" size=""/>
+            <output expression="&quot;enter the value of raashith&quot;" newline="True"/>
+            <input variable="raashith"/>
+            <output expression="&quot;enter the value of pravin&quot;" newline="True"/>
+            <input variable="pravin"/>
+            <output expression="&quot;enter the value of arun&quot;" newline="True"/>
+            <input variable="arun"/>
+            <if expression="pravin&gt;raashith">
+                <then>
+                    <if expression="pravin&gt;arun">
+                        <then>
+                            <output expression="&quot;pravin is hieght&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;arun is hieght&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <if expression="raashith&gt;arun">
+                        <then>
+                            <output expression="&quot;raashith is hieght&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;arun is hieght&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

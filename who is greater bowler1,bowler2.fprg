@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ELCOT"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-11-11 04:35:57 AM"/>
+        <attribute name="created" value="RUxDT1Q7TEVOT1ZPOzIwMjAtMTEtMTE7MDI6MzE6NDYgQU07MjA5NQ=="/>
+        <attribute name="edited" value="RUxDT1Q7TEVOT1ZPOzIwMjAtMTEtMTE7MDQ6MzU6NTcgQU07MzsyMjEz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="bowler1" type="String" array="False" size=""/>
+            <declare name="bowler2" type="String" array="False" size=""/>
+            <declare name="bowler1wicket" type="Integer" array="False" size=""/>
+            <declare name="bowler2wicket" type="Integer" array="False" size=""/>
+            <output expression="&quot;enter the bowler1 name&quot;" newline="True"/>
+            <input variable="bowler1"/>
+            <output expression="&quot;enter the bowler1wicket&quot;" newline="True"/>
+            <input variable="bowler2wicket"/>
+            <output expression="&quot;enter the bowler2 name&quot;" newline="True"/>
+            <input variable="bowler2"/>
+            <output expression="&quot;enter the bowler2wicket&quot;" newline="True"/>
+            <input variable="bowler2wicket"/>
+            <if expression="bowler1wicket&gt;bowler2wicket">
+                <then>
+                    <output expression="&quot;athiga wicket score pannathu&quot; &amp;bowler1" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;athiga wicket score pannathu&quot; &amp;bowler2" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

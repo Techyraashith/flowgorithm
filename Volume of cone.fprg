@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ELCOT"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-11-10 05:32:50 AM"/>
+        <attribute name="created" value="RUxDT1Q7TEVOT1ZPOzIwMjAtMTEtMTA7MDU6MjE6MjUgQU07MjA5Mw=="/>
+        <attribute name="edited" value="RUxDT1Q7TEVOT1ZPOzIwMjAtMTEtMTA7MDU6MzI6NTAgQU07MzsyMjAz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="breath" type="Integer" array="False" size=""/>
+            <declare name="hieght" type="Integer" array="False" size=""/>
+            <declare name="volume" type="Integer" array="False" size=""/>
+            <output expression="&quot;enter the value of breath&quot;" newline="True"/>
+            <input variable="breath"/>
+            <output expression="&quot;enter the value of hieght&quot;" newline="True"/>
+            <input variable="hieght"/>
+            <assign variable="volume" expression="breath*hieght/3"/>
+            <output expression="&quot;the volume of cone is&quot; &amp;volume" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

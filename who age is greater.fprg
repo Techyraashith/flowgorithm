@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ELCOT"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-11-16 04:18:42 AM"/>
+        <attribute name="created" value="RUxDT1Q7TEVOT1ZPOzIwMjAtMTEtMTY7MDM6NTE6MjkgQU07MjEwNA=="/>
+        <attribute name="edited" value="RUxDT1Q7TEVOT1ZPOzIwMjAtMTEtMTY7MDQ6MTg6NDIgQU07MTsyMjEx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Boyname, Girlname" type="String" array="False" size=""/>
+            <declare name="Boyage, girlage" type="Integer" array="False" size=""/>
+            <output expression="&quot;enter the value of Boyname&quot;" newline="True"/>
+            <input variable="Boyname"/>
+            <output expression="&quot;enter the age of the Boy&quot;" newline="True"/>
+            <input variable="Boyage"/>
+            <output expression="&quot;enter the value of Girlname&quot;" newline="False"/>
+            <input variable="Girlname"/>
+            <output expression="&quot;enter the age of the Girl&quot;" newline="True"/>
+            <input variable="Girlage"/>
+            <if expression="Boyage&gt;Girlage">
+                <then>
+                    <output expression="&quot;Boyage is greater&quot; &amp;Boyage" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Girlage is greater&quot; &amp;Girlage" newline="False"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

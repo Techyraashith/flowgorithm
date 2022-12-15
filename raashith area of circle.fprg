@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ELCOT"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-11-10 01:37:57 AM"/>
+        <attribute name="created" value="RUxDT1Q7TEVOT1ZPOzIwMjAtMTEtMTA7MTI6Mzk6NTEgQU07MjA5OQ=="/>
+        <attribute name="edited" value="RUxDT1Q7TEVOT1ZPOzIwMjAtMTEtMTA7MDE6Mzc6NTcgQU07MTsyMjA5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="r" type="Integer" array="False" size=""/>
+            <declare name="area" type="Real" array="False" size=""/>
+            <output expression="&quot;enter the value of r&quot;" newline="True"/>
+            <input variable="r"/>
+            <assign variable="area" expression="(22/7)*r*r"/>
+            <output expression="&quot;the area of circle is&quot; &amp;area" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

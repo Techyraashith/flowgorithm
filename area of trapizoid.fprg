@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ELCOT"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-12-12 02:48:57 PM"/>
+        <attribute name="created" value="RUxDT1Q7TEVOT1ZPOzIwMjAtMTEtMTA7MDU6MzI6NTUgQU07MjA5OA=="/>
+        <attribute name="edited" value="RUxDT1Q7TEVOT1ZPOzIwMjItMTItMTI7MDI6NDg6NTcgUE07MjsyMjMz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Area, base1, base2, height" type="Integer" array="False" size=""/>
+            <output expression="&quot;enter the value of base1&quot;" newline="True"/>
+            <input variable="base1"/>
+            <output expression="&quot;enter the value of base2&quot;" newline="True"/>
+            <input variable="base2"/>
+            <output expression="&quot;enter the value of hieght&quot;" newline="True"/>
+            <input variable="height"/>
+            <assign variable="Area" expression="(base1+base2)*height/2"/>
+            <output expression="&quot;the area of trapizoid is&quot; &amp;Area" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

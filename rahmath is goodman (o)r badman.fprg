@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ELCOT"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-11-12 05:55:15 AM"/>
+        <attribute name="created" value="RUxDT1Q7TEVOT1ZPOzIwMjAtMTEtMTI7MDU6NDQ6NTkgQU07MjEwNw=="/>
+        <attribute name="edited" value="RUxDT1Q7TEVOT1ZPOzIwMjAtMTEtMTI7MDU6NTU6MTUgQU07MTsyMjA5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Rahmath" type="Integer" array="False" size=""/>
+            <output expression="&quot;enter the value of Rahmath&quot;" newline="True"/>
+            <input variable="Rahmath"/>
+            <if expression="Rahmath&gt;11">
+                <then>
+                    <output expression="&quot;Rahmath is goodman&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Rahmath is badman&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

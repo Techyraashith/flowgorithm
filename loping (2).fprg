@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="rahmathullah.p"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-11-16 05:36:37 AM"/>
+        <attribute name="created" value="cmFobWF0aHVsbGFoLnA7VklOU0xUMDczOzIwMjAtMTEtMTY7MDY6MDU6NTEgUE07MzM0MQ=="/>
+        <attribute name="edited" value="cmFobWF0aHVsbGFoLnA7VklOU0xUMDczOzIwMjAtMTEtMTY7MDY6MTI6MjQgUE07MTszNDQ3"/>
+        <attribute name="edited" value="RUxDT1Q7TEVOT1ZPOzIwMjAtMTEtMTY7MDU6MzY6MzcgQU07MjsyMjE3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <assign variable="i" expression="1"/>
+            <while expression="i&lt;10">
+                <output expression="&quot;My name is raashith&quot;" newline="True"/>
+                <assign variable="i" expression="i+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ELCOT"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-11-16 03:51:24 AM"/>
+        <attribute name="created" value="RUxDT1Q7TEVOT1ZPOzIwMjAtMTEtMTY7MTI6MTQ6NTUgQU07MjEwMg=="/>
+        <attribute name="edited" value="RUxDT1Q7TEVOT1ZPOzIwMjAtMTEtMTY7MDM6NTE6MjQgQU07MzsyMjA5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="bowler1name, bowler2name" type="String" array="False" size=""/>
+            <declare name="bowler1wicket, bowler2wicket" type="Integer" array="False" size=""/>
+            <output expression="&quot;enter the bowler1 name&quot;" newline="True"/>
+            <input variable="bowler1name"/>
+            <output expression="&quot;enter the bowler1 wicket&quot;" newline="True"/>
+            <input variable="bowler1wicket"/>
+            <output expression="&quot;enter the bowler2 name&quot;" newline="True"/>
+            <input variable="bowler2name"/>
+            <output expression="&quot;enter the bowler2 wicket&quot;" newline="True"/>
+            <input variable="bowler2wicket"/>
+            <if expression="bowler1wicket&gt;bowler2wicket">
+                <then>
+                    <output expression="&quot;bowler1wicket is greater&quot; &amp;bowler1name" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;bowler2wicket is greater&quot; &amp;bowler2name" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

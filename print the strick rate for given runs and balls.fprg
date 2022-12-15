@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ELCOT"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-11-12 09:42:11 PM"/>
+        <attribute name="created" value="RUxDT1Q7TEVOT1ZPOzIwMjAtMTEtMTI7MDk6MTc6MzMgUE07MjExOA=="/>
+        <attribute name="edited" value="RUxDT1Q7TEVOT1ZPOzIwMjAtMTEtMTI7MDk6NDI6MTEgUE07MTsyMjIw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="run" type="Integer" array="False" size=""/>
+            <declare name="balls" type="Integer" array="False" size=""/>
+            <declare name="strick" type="Integer" array="False" size=""/>
+            <declare name="rate" type="Integer" array="False" size=""/>
+            <output expression="&quot;enter the value of run&quot;" newline="True"/>
+            <input variable="run"/>
+            <output expression="&quot;enter the value of balls&quot;" newline="True"/>
+            <input variable="balls"/>
+            <assign variable="strick" expression="run/balls"/>
+            <assign variable="rate" expression="strick*100"/>
+            <output expression="&quot;the result is&quot; &amp;rate" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

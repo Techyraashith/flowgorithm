@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ELCOT"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-11-12 05:41:19 AM"/>
+        <attribute name="created" value="RUxDT1Q7TEVOT1ZPOzIwMjAtMTEtMTI7MDU6MzY6NTUgQU07MjEwNA=="/>
+        <attribute name="edited" value="RUxDT1Q7TEVOT1ZPOzIwMjAtMTEtMTI7MDU6NDE6MTkgQU07MTsyMjA4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="jemila" type="Integer" array="False" size=""/>
+            <output expression="&quot;enter the value of jemila&quot;" newline="True"/>
+            <input variable="jemila"/>
+            <if expression="jemila&gt;33">
+                <then>
+                    <output expression="&quot;jemila is good&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;jemila is bad&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

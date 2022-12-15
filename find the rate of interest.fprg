@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ELCOT"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-11-13 12:47:16 AM"/>
+        <attribute name="created" value="RUxDT1Q7TEVOT1ZPOzIwMjAtMTEtMTM7MTI6MzQ6MTUgQU07MjA5Nw=="/>
+        <attribute name="edited" value="RUxDT1Q7TEVOT1ZPOzIwMjAtMTEtMTM7MTI6NDc6MTYgQU07MTsyMjEw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="principle, noofmonth, rateofinterest" type="Integer" array="False" size=""/>
+            <declare name="R" type="Integer" array="False" size=""/>
+            <output expression="&quot;enter the value of principle&quot;" newline="True"/>
+            <input variable="principle"/>
+            <output expression="&quot;enter the value of noofmonth&quot;" newline="True"/>
+            <input variable="noofmonth"/>
+            <output expression="&quot;enter the value of rateofinterest&quot;" newline="True"/>
+            <input variable="rateofinterest"/>
+            <assign variable="R" expression="principle*noofmonth*rateofinterest/100"/>
+            <output expression="&quot;the result is&quot; &amp;R" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

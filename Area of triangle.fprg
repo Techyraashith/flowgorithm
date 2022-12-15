@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ELCOT"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-12-12 12:19:26 PM"/>
+        <attribute name="created" value="RUxDT1Q7TEVOT1ZPOzIwMjItMTItMTI7MTI6MDE6NDQgUE07MjExMA=="/>
+        <attribute name="edited" value="RUxDT1Q7TEVOT1ZPOzIwMjItMTItMTI7MTI6MTk6MjYgUE07MTsyMjI3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Area, b, h" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter the value of b&quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;Enter the value of h&quot;" newline="True"/>
+            <input variable="h"/>
+            <assign variable="Area" expression="0.5*b*h"/>
+            <output expression="&quot;The Area of Triangle is&quot;&amp; Area" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

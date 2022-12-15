@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ELCOT"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-11-22 11:01:01 PM"/>
+        <attribute name="created" value="RUxDT1Q7TEVOT1ZPOzIwMjAtMTEtMjI7MTA6NDM6MTggUE07MjExMw=="/>
+        <attribute name="edited" value="RUxDT1Q7TEVOT1ZPOzIwMjAtMTEtMjI7MTE6MDE6MDEgUE07MTsyMjA4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, R, P" type="String" array="False" size=""/>
+            <output expression="&quot;enter the name of P&quot;" newline="True"/>
+            <input variable="P"/>
+            <output expression="&quot;enter the name of A&quot;" newline="True"/>
+            <input variable="A"/>
+            <output expression="&quot;enter the name of R&quot;" newline="True"/>
+            <input variable="R"/>
+            <if expression="P&gt;R">
+                <then>
+                    <if expression="R&gt;A">
+                        <then>
+                            <output expression="&quot;R is height&quot; &amp;R" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;A is height&quot; &amp;A" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <if expression="P&gt;A">
+                        <then>
+                            <output expression="&quot;P is height&quot; &amp;P" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;A is height&quot; &amp;A" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

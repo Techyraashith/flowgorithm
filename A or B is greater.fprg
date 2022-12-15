@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ELCOT"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-03-06 04:22:24 AM"/>
+        <attribute name="created" value="RUxDT1Q7TEVOT1ZPOzIwMjItMDMtMDY7MDM6Mjk6MDggQU07MjEwOA=="/>
+        <attribute name="edited" value="RUxDT1Q7TEVOT1ZPOzIwMjItMDMtMDY7MDQ6MjI6MjQgQU07MjsyMjA5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <output expression="&quot;enter the value of a&quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;enter the value fo b&quot;" newline="True"/>
+            <if expression="a&gt;b">
+                <then>
+                    <output expression="&quot;b is greater&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;a is greater&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

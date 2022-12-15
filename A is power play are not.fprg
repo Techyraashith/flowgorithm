@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ELCOT"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-11-12 04:46:06 AM"/>
+        <attribute name="created" value="RUxDT1Q7TEVOT1ZPOzIwMjAtMTEtMTI7MDQ6MTg6MjcgQU07MjEwMg=="/>
+        <attribute name="edited" value="RUxDT1Q7TEVOT1ZPOzIwMjAtMTEtMTI7MDQ6NDY6MDYgQU07MTsyMjA4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A" type="Integer" array="False" size=""/>
+            <output expression="&quot;enter the value of A&quot;" newline="True"/>
+            <input variable="A"/>
+            <if expression="A&lt;6">
+                <then>
+                    <output expression="&quot;A is powerplay&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;A is not powerplay&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
