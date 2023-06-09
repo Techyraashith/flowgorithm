@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ELCOT"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-06-08 01:57:36 PM"/>
+        <attribute name="created" value="RUxDT1Q7TEVOT1ZPOzIwMjMtMDYtMDg7MDE6NTU6MDkgUE07MjEyNw=="/>
+        <attribute name="edited" value="RUxDT1Q7TEVOT1ZPOzIwMjMtMDYtMDg7MDE6NTc6MzYgUE07MTsyMjM3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <assign variable="x" expression="5"/>
+            <output expression="&quot;Printing integer value is: &quot;&amp;x" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ELCOT"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-06-07 03:54:22 PM"/>
+        <attribute name="created" value="RUxDT1Q7TEVOT1ZPOzIwMjMtMDYtMDU7MDM6MDQ6MjMgUE07MjExNg=="/>
+        <attribute name="edited" value="RUxDT1Q7TEVOT1ZPOzIwMjMtMDYtMDc7MDM6NTQ6MjIgUE07MzsyMjMy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <declare name="sum" type="Integer" array="False" size=""/>
+            <declare name="avg" type="Real" array="False" size=""/>
+            <output expression="&quot;Enter the elements&quot;" newline="True"/>
+            <input variable="n"/>
+            <assign variable="sum" expression="0"/>
+            <assign variable="i" expression="1"/>
+            <for variable="i" start="1" end="n" direction="inc" step="1">
+                <output expression="&quot;Number &quot;&amp;i" newline="True"/>
+                <input variable="i"/>
+                <assign variable="sum" expression="sum+i"/>
+            </for>
+            <output expression="&quot;&quot;&amp;sum" newline="True"/>
+            <assign variable="avg" expression="sum/n"/>
+            <output expression="&quot;The avg of the element is:&quot;&amp;avg" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ELCOT"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-04-01 11:21:09 AM"/>
+        <attribute name="created" value="RUxDT1Q7TEVOT1ZPOzIwMjMtMDQtMDE7MTE6MTE6MjAgQU07MjA4OQ=="/>
+        <attribute name="edited" value="RUxDT1Q7TEVOT1ZPOzIwMjMtMDQtMDE7MTE6MjE6MDkgQU07MTsyMjA1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter the value of a&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Enter the value of b&quot;" newline="True"/>
+            <input variable="b"/>
+            <assign variable="a" expression="a+b"/>
+            <assign variable="b" expression="a-b"/>
+            <assign variable="a" expression="a-b"/>
+            <output expression="&quot;After swapping a is &quot;&amp;a" newline="True"/>
+            <output expression="&quot;After swapping b is &quot;&amp;b" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
