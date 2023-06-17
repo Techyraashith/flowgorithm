@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ELCOT"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-06-09 11:09:54 AM"/>
+        <attribute name="created" value="RUxDT1Q7TEVOT1ZPOzIwMjMtMDYtMDk7MTA6NTc6MDIgQU07MjEwOA=="/>
+        <attribute name="edited" value="RUxDT1Q7TEVOT1ZPOzIwMjMtMDYtMDk7MTE6MDk6NTQgQU07MTsyMjIx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <declare name="p" type="Integer" array="False" size=""/>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <declare name="r" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter the value of principle&quot;" newline="True"/>
+            <input variable="p"/>
+            <output expression="&quot;Enter the value of interest&quot;" newline="True"/>
+            <input variable="r"/>
+            <output expression="&quot;Enter the number of month&quot;" newline="True"/>
+            <input variable="n"/>
+            <assign variable="i" expression="p*n*r/100"/>
+            <output expression="&quot;The value of interrest is: &quot;&amp;i" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ELCOT"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-06-09 01:33:26 PM"/>
+        <attribute name="created" value="RUxDT1Q7TEVOT1ZPOzIwMjMtMDYtMDk7MDE6MjY6MjcgUE07MjEyNg=="/>
+        <attribute name="edited" value="RUxDT1Q7TEVOT1ZPOzIwMjMtMDYtMDk7MDE6MzM6MjYgUE07NDsyMjM0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="R" type="Integer" array="False" size=""/>
+            <declare name="A" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter the value of A: &quot;" newline="True"/>
+            <input variable="A"/>
+            <assign variable="R" expression="A%2"/>
+            <if expression="R=0">
+                <then>
+                    <output expression="&quot;A is Even no &quot;&amp;A" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;A is Odd no &quot;&amp;A" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
